@@ -1,2 +1,7 @@
-# simple-color-wheel
-A Swift color wheel that focuses on simplicity of use
+# SimpleColorWheel
+
+A Swift color wheel for iOS that focuses on simplicity of use.
+
+Clone the repo and run SimpleColorWheelExample project for a usage example.
+
+As a bonus, you also get a ColorfulActivityIndicator.
