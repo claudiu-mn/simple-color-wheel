@@ -4,7 +4,8 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/claudiu-mn/simple-color-wheel)
 [![License](https://img.shields.io/github/license/claudiu-mn/simple-color-wheel)](LICENSE)
 
-<a href="https://placehold.it/400?text=Screen+shot"><img width=200 height=200 src="https://placehold.it/400?text=Screen+shot" alt="Screenshot" /></a>
+![Example app loading screenshot](/screenshot_1.png?raw=true)
+![Example app color wheel screenshot](/screenshot_2.png?raw=true)
 
 A Swift color wheel for iOS that focuses on simplicity.
 
@@ -41,6 +42,7 @@ Then run `carthage update` to build the framework and drag the built `SimpleColo
 ## Author
 
 Claudiu
+shout@claudiu.mn
 
 
 ## License

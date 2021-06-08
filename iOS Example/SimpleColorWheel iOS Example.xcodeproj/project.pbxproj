@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D97F1F0125951C1A004C7A4E /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97F1F0125951C1A004C7A4E /* SimpleColorWheel iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleColorWheel iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97F1F0425951C1A004C7A4E /* iOS_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ExampleApp.swift; sourceTree = "<group>"; };
 		D97F1F0625951C1A004C7A4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D97F1F0825951C1A004C7A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		D97F1F0225951C1A004C7A4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D97F1F0125951C1A004C7A4E /* iOS Example.app */,
+				D97F1F0125951C1A004C7A4E /* SimpleColorWheel iOS Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D97F1F0025951C1A004C7A4E /* iOS Example */ = {
+		D97F1F0025951C1A004C7A4E /* SimpleColorWheel iOS Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D97F1F1025951C1A004C7A4E /* Build configuration list for PBXNativeTarget "iOS Example" */;
+			buildConfigurationList = D97F1F1025951C1A004C7A4E /* Build configuration list for PBXNativeTarget "SimpleColorWheel iOS Example" */;
 			buildPhases = (
 				D97F1EFD25951C1A004C7A4E /* Sources */,
 				D97F1EFE25951C1A004C7A4E /* Frameworks */,
@@ -94,12 +94,12 @@
 			);
 			dependencies = (
 			);
-			name = "iOS Example";
+			name = "SimpleColorWheel iOS Example";
 			packageProductDependencies = (
 				D9612A4E2595212E0061CCE1 /* SimpleColorWheel */,
 			);
 			productName = "iOS Example";
-			productReference = D97F1F0125951C1A004C7A4E /* iOS Example.app */;
+			productReference = D97F1F0125951C1A004C7A4E /* SimpleColorWheel iOS Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D97F1EFC25951C1A004C7A4E /* Build configuration list for PBXProject "iOS Example" */;
+			buildConfigurationList = D97F1EFC25951C1A004C7A4E /* Build configuration list for PBXProject "SimpleColorWheel iOS Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D97F1F0025951C1A004C7A4E /* iOS Example */,
+				D97F1F0025951C1A004C7A4E /* SimpleColorWheel iOS Example */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +283,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mn.claudiu.iOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.claudiu.SimpleColorWheelExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,12 +303,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mn.claudiu.iOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.claudiu.SimpleColorWheelExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D97F1EFC25951C1A004C7A4E /* Build configuration list for PBXProject "iOS Example" */ = {
+		D97F1EFC25951C1A004C7A4E /* Build configuration list for PBXProject "SimpleColorWheel iOS Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D97F1F0E25951C1A004C7A4E /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D97F1F1025951C1A004C7A4E /* Build configuration list for PBXNativeTarget "iOS Example" */ = {
+		D97F1F1025951C1A004C7A4E /* Build configuration list for PBXNativeTarget "SimpleColorWheel iOS Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D97F1F1125951C1A004C7A4E /* Debug */,
