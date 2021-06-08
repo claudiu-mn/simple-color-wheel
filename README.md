@@ -21,31 +21,40 @@ Bonus: ColorfulActivityIndicator.
 To run the example project, clone this repo, and open iOS Example.xcworkspace from the iOS Example directory.
 
 
-## Requirements
-
-
 ## Installation
 
-Add this to your project using Swift Package Manager. In Xcode that is simply: File > Swift Packages > Add Package Dependency... and you're done. Alternative installations options are shown below for legacy projects.
+### Manual
 
-### CocoaPods
+Copy the `/Sources/SimpleColorWheel` folder to your project.
 
-If you are already using [CocoaPods](http://cocoapods.org), just add 'SimpleColorWheel' to your `Podfile` then run `pod install`.
+<details>
+  <summary>Other installation methods</summary>
+        
+  **!!! These don't work at the moment !!! I left this here for my future self.**
+  
+  ### Swift Package Manager
+  
+  Add this to your project using Swift Package Manager. In Xcode that is simply: File > Swift Packages > Add Package Dependency... and you're done.
+  
+  ### CocoaPods
 
-### Carthage
+  If you are already using [CocoaPods](http://cocoapods.org), just add 'SimpleColorWheel' to your `Podfile` then run `pod install`.
 
-If you are already using [Carthage](https://github.com/Carthage/Carthage), just add to your `Cartfile`:
+  ### Carthage
 
-```ogdl
-github "claudiu-mn/SimpleColorWheel" ~> 0.1
-```
+  If you are already using [Carthage](https://github.com/Carthage/Carthage), just add to your `Cartfile`:
 
-Then run `carthage update` to build the framework and drag the built `SimpleColorWheel`.framework into your Xcode project.
+  ```ogdl
+  github "claudiu-mn/SimpleColorWheel" ~> 0.1
+  ```
 
+  Then run `carthage update` to build the framework and drag the built `SimpleColorWheel`.framework into your Xcode project.
+</details>
 
 ## Author
 
 Claudiu
+
 shout@claudiu.mn
 
 
