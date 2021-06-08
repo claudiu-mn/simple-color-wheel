@@ -4,8 +4,12 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/claudiu-mn/simple-color-wheel)
 [![License](https://img.shields.io/github/license/claudiu-mn/simple-color-wheel)](LICENSE)
 
-![Example app loading screenshot](/screenshot_1.png?raw=true)
-![Example app color wheel screenshot](/screenshot_2.png?raw=true)
+<div align="center">
+        <img width="30%" src="/screenshot_1.png" alt="About screen" title="About screen"</img>
+        <img height="0" width="20%">
+        <img width="30%" src="/screenshot_2.png" alt="List screen" title="List screen"></img>
+</div>
+
 
 A Swift color wheel for iOS that focuses on simplicity.
 
